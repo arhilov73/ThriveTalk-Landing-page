@@ -32,6 +32,7 @@ $light-blue: #62D0DF;
 $light-blue-hover: #42baca;
 $blue: #0052C1;
 $dark-blue: #22356F;
+$text-grey: rgba(34, 53, 111, 0.5);
 
 
 // Styles:
@@ -178,6 +179,7 @@ main {
     color: #fff;
     background-color: $light-blue;
     background-image: url(../images/main/sect1/img1.png);
+    background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
 
@@ -229,7 +231,7 @@ main {
 
 .sect3 {
     width: 100%;
-    margin-bottom: 7.5rem;
+    margin-bottom: 1.5rem;
     .white-line {
         text-align: center;
         padding: 4.75rem 0 1.5rem 0;
@@ -273,5 +275,141 @@ main {
         .item:last-child {
             background: $blue;
         }
+    }
+}
+
+.sect4 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .item {
+        width: 30rem;
+        height: 15rem;
+        
+        h1 {
+            padding: 3.44rem 0 0 6.56rem;
+            font-weight: 400;
+            font-size: 1.75rem;
+            line-height: 1.18;
+            letter-spacing: -0.03em;
+            color: $dark-blue;
+        }
+        p {
+            width: 18.625rem;
+            padding: 1.75rem 0 0 6.56rem;
+            font-size: 1rem;
+            line-height: 1.56;
+            letter-spacing: -0.03em;
+            color: $text-grey;
+        }
+    }
+}
+
+.sect5 {
+    width: 100%;
+    height: 50rem;
+
+    background-color: $dark-blue;
+    background-image: url(../images/main/sect5/man.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    .text {
+        width: 36.1rem;
+        padding: 6.44rem 0 0 11.25rem;
+
+        color: #FFFFFF;
+
+        #link1 {
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 0.75;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+        h1 {
+            padding-top: 12rem;
+            font-size: 4rem;
+            line-height: 1.47;
+            letter-spacing: -0.01em;
+        }
+        p {
+            padding-top: 4.75rem;
+            margin-bottom: 4rem;
+            font-size: 2.25rem;
+            font-weight: 300;
+            line-height: 1.47;
+            letter-spacing: -0.005em;
+        }
+        #link2 {
+            font-size: 1rem;
+            line-height: 1.4rem;
+            letter-spacing: 0.1em;
+            color: $light-blue;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}
+
+// Footer:
+footer {
+    width: 100%;
+}
+.sect6 {
+    width: 100%;
+    height: 23.75rem;
+
+    background-image: url(../images/main/sect6/autumn-goodman-242825.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        padding: 8rem 0 0 39.8rem;
+        .text {
+            width: 12.9rem;
+            h1 {
+                font-size: 0.88rem;
+                line-height: 0.79rem;
+                letter-spacing: -0.006em;
+                color: $dark-blue;
+            }
+            p {
+                padding-top: 3rem;
+                font-size: 0.88rem;
+                line-height: 1.44;
+                letter-spacing: -0.006em;
+                color: $text-grey;
+                a {
+                    color: $light-blue;
+                    &:hover {
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sect7 {
+    width: 100%;
+    height: 5rem;
+
+    background: $light-blue;
+
+    p {
+        padding: 2rem 0 0 11.25rem;
+        color: #fff;
     }
 }

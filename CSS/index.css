@@ -146,6 +146,7 @@ main {
   color: #fff;
   background-color: #62D0DF;
   background-image: url(../images/main/sect1/img1.png);
+  background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -190,7 +191,7 @@ main {
 
 .sect3 {
   width: 100%;
-  margin-bottom: 7.5rem;
+  margin-bottom: 1.5rem;
 }
 .sect3 .white-line {
   text-align: center;
@@ -234,4 +235,127 @@ main {
 }
 .sect3 .squares .item:last-child {
   background: #0052C1;
+}
+
+.sect4 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sect4 .item {
+  width: 30rem;
+  height: 15rem;
+}
+.sect4 .item h1 {
+  padding: 3.44rem 0 0 6.56rem;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  color: #22356F;
+}
+.sect4 .item p {
+  width: 18.625rem;
+  padding: 1.75rem 0 0 6.56rem;
+  font-size: 1rem;
+  line-height: 1.56;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.sect5 {
+  width: 100%;
+  height: 50rem;
+  background-color: #22356F;
+  background-image: url(../images/main/sect5/man.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.sect5 .text {
+  width: 36.1rem;
+  padding: 6.44rem 0 0 11.25rem;
+  color: #FFFFFF;
+}
+.sect5 .text #link1 {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 0.75;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+.sect5 .text h1 {
+  padding-top: 12rem;
+  font-size: 4rem;
+  line-height: 1.47;
+  letter-spacing: -0.01em;
+}
+.sect5 .text p {
+  padding-top: 4.75rem;
+  margin-bottom: 4rem;
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 1.47;
+  letter-spacing: -0.005em;
+}
+.sect5 .text #link2 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.1em;
+  color: #62D0DF;
+}
+.sect5 .text #link2:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+}
+
+.sect6 {
+  width: 100%;
+  height: 23.75rem;
+  background-image: url(../images/main/sect6/autumn-goodman-242825.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.sect6 .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8rem 0 0 39.8rem;
+}
+.sect6 .info .text {
+  width: 12.9rem;
+}
+.sect6 .info .text h1 {
+  font-size: 0.88rem;
+  line-height: 0.79rem;
+  letter-spacing: -0.006em;
+  color: #22356F;
+}
+.sect6 .info .text p {
+  padding-top: 3rem;
+  font-size: 0.88rem;
+  line-height: 1.44;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+}
+.sect6 .info .text p a {
+  color: #62D0DF;
+}
+.sect6 .info .text p a:hover {
+  color: #0052C1;
+}
+
+.sect7 {
+  width: 100%;
+  height: 5rem;
+  background: #62D0DF;
+}
+.sect7 p {
+  padding: 2rem 0 0 11.25rem;
+  color: #fff;
 }
